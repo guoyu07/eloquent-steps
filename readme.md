@@ -27,8 +27,10 @@ Items::steps(1000, function(Collection $items) {
 
 ## Сравнение скорости
 
-- elapsed: 68.626878023148 avr: 0.068402220249176 iteration: 1000 ids: 1000000
-- elapsed: 29.601042985916 avr: 0.029474520921707 iteration: 1000 ids: 1000000
+- chunk() elapsed: 68.626878023148 avr: 0.068402220249176 iteration: 1000 ids: 1000000
+- steps() elapsed: 29.601042985916 avr: 0.029474520921707 iteration: 1000 ids: 1000000
+
+см. ``/for-test``
 
 ## тем кто дочитал
 
